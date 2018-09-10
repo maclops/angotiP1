@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prova 1</string>
+    <string name="default_tentativas_textview">0</string>
+    <string name="texto_tentativas_textview">Contagem: </string>
+    <string name="aumentar_button">+1</string>
+    <string name="diminuir_button">-1</string>
+    <string name="resetar_button">Zerar contagem</string>
+</resources>

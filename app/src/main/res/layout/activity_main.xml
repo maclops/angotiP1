@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp">
+
+            <TextView
+                android:id="@+id/texto_contagem_textview"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="4"
+                android:text="@string/texto_tentativas_textview"
+                android:textAlignment="center"
+                android:textColor="@color/colorTexto"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/numero_contagem_textview"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:background="@color/colorTexto"
+                android:text="@string/default_tentativas_textview"
+                android:textAlignment="center"
+                android:textColor="@color/colorContador"
+                android:textSize="80sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:id="@+id/aumentar_button"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:text="@string/aumentar_button"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/diminuir_button"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/diminuir_button"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"/>
+
+        <Button
+
+            android:id="@+id/resetar_button"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:text="@string/resetar_button"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
